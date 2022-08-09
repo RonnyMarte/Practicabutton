@@ -1,0 +1,30 @@
+<html>
+    <head>
+       <tittle>Hola</tittle> 
+    </head>
+    <body>
+    <label>
+        Age
+        <input id="age" type="number" >
+    </label>
+    <button onclick="imprime()">Find out </button>
+    <script>
+
+        let age = document.getElementById("age");
+        
+        function imprime() {
+
+           // console.log(age.value);
+
+         
+            if (age.value >= 18) {
+                console.log("you can drink");
+        
+            }else{
+                console.log("you can't drink");
+            }
+        }
+
+    </script>
+ </body>
+</html>
